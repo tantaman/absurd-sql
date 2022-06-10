@@ -1,5 +1,5 @@
 {
-  "name": "absurd-sql",
+  "name": "@aphro/absurd-sql",
   "version": "0.0.53",
   "main": "./dist/index.js",
   "scripts": {
@@ -9,8 +9,8 @@
     "serve": "cd src/examples && ../../node_modules/.bin/webpack serve"
   },
   "devDependencies": {
+    "@aphro/sql.js": "^1.7.0",
     "@babel/plugin-transform-modules-commonjs": "^7.14.5",
-    "@jlongster/sql.js": "1.6.7",
     "@rollup/plugin-alias": "^3.1.5",
     "@rollup/plugin-node-resolve": "^13.0.4",
     "babel": "^6.23.0",
